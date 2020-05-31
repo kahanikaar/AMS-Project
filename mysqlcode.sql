@@ -12,7 +12,7 @@ owners.
 
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
-mysql> show  databasesl[K;
+mysql> show  databases;
 +--------------------+
 | Database           |
 +--------------------+
@@ -27,7 +27,7 @@ mysql> show  databasesl[K;
 +--------------------+
 8 rows in set (0.00 sec)
 
-mysql> use database [K[K[K[K[K[K[K[Katt[K[K[KATTENDANCE_MGMTL[K;
+mysql> use database ATTENDANCE_MGMTL;
 Reading table information for completion of table and column names
 You can turn off this feature to get a quicker startup with -A
 
@@ -46,7 +46,7 @@ mysql> SHOW TABLES;
 
 mysql> SHOW ATT[K[K[KSTUDENT_DATA;
 ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'STUDENT_DATA' at line 1
-mysql> SHOW STUDENT_DATA;[1@CS[1@OS[1@LS[1@US[1@MS[1@NSS[1@ST[1@ S[1@FS[1@RS[1@OS[1@MS[1@ S
+mysql> SHOW STUDENT_DATA;
 +--------------+--------------+------+-----+---------+-------+
 | Field        | Type         | Null | Key | Default | Extra |
 +--------------+--------------+------+-----+---------+-------+
@@ -60,7 +60,7 @@ ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that 
 +--------------+--------------+------+-----+---------+-------+
 7 rows in set (0.00 sec)
 
-mysql> SH[K[KSHOW COLUMNS FROM STUDENT_DATA;[13G[13PS[26G[13G[13@COLUMNS FROM S[39G;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[KT;E;A;C;H;E;R;_;D;A;T;A;
+mysql> SHOW COLUMNS FROM STUDENT_DATA;
 +--------------+-------------+------+-----+---------+-------+
 | Field        | Type        | Null | Key | Default | Extra |
 +--------------+-------------+------+-----+---------+-------+
@@ -73,7 +73,7 @@ mysql> SH[K[KSHOW COLUMNS FROM STUDENT_DATA;[13G[13PS[26G[13G[13@COLUMN
 +--------------+-------------+------+-----+---------+-------+
 6 rows in set (0.00 sec)
 
-mysql> SHOW COLUMNS FROM TEACHER_DATA;;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[KC;O;U;R;S;E;_;D;A;T;A;
+mysql> SHOW COLUMNS FROM TEACHER_DATA;
 +-------------+-------------+------+-----+---------+-------+
 | Field       | Type        | Null | Key | Default | Extra |
 +-------------+-------------+------+-----+---------+-------+
@@ -83,7 +83,7 @@ mysql> SHOW COLUMNS FROM TEACHER_DATA;;[K;[K;[K;[K;[K;[K;[K
 +-------------+-------------+------+-----+---------+-------+
 3 rows in set (0.00 sec)
 
-mysql> SHOW COLUMNS FROM COURSE_DATA;;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[KS;T;U;D;E;N;T;_;E;N;R;O;L;L;M;E;N;T;
+mysql> SHOW COLUMNS FROM COURSE_DATA;
 +--------------------+-------------+------+-----+---------+-------+
 | Field              | Type        | Null | Key | Default | Extra |
 +--------------------+-------------+------+-----+---------+-------+
@@ -95,8 +95,7 @@ mysql> SHOW COLUMNS FROM COURSE_DATA;;[K;[K;[K;[K;[K;[K;[K
 +--------------------+-------------+------+-----+---------+-------+
 5 rows in set (0.00 sec)
 
-mysql> SHOW COLUMNS FROM STUDENT_ENROLLMENT;;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[K;[KA;T;T;E;N;D;A;N;C;E;_;R;E;C;O;R;S;;[KD;S;
-+------------+-------------+------+-----+---------+-------+
+mysql> SHOW COLUMNS FROM STUDENT_ENROLLMENT;
 | Field      | Type        | Null | Key | Default | Extra |
 +------------+-------------+------+-----+---------+-------+
 | STUDENT_ID | varchar(20) | NO   | MUL | NULL    |       |
@@ -106,10 +105,9 @@ mysql> SHOW COLUMNS FROM STUDENT_ENROLLMENT;;[K;[K;[K;[K;[K;[K
 +------------+-------------+------+-----+---------+-------+
 4 rows in set (0.00 sec)
 
-mysql> EXIRT[K[KT
+mysql> EXIT
 Bye
-(base) ]0;computerist@sanzisen: ~[01;32mcomputerist@sanzisen[00m:[01;34m~[00m$ EXIT
-EXIT: command not found
+
 (base) ]0;computerist@sanzisen: ~[01;32mcomputerist@sanzisen[00m:[01;34m~[00m$ exit
 exit
 
