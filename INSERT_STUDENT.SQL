@@ -167,10 +167,12 @@ mysql> SELECT * FROM STUDENT_DATA;
 +-------------------+------------+---------+--------------+------------------------------+------------+--------------------+
 10 rows in set (0.00 sec)
 
-mysql> INSERT INTO STUDENT_DATA (NAME,STUDENT_ID,PROGRAM,JOINING_DATE,BRANCH,PHONE,ADDRESS) VALUES("RASHMI BAJAJ","B218011","B.TECH",'2018-07-10',"ELECTRONICS ENGINEERING",996658976,"L/K/5, CHENNAI");
+mysql> INSERT INTO STUDENT_DATA (NAME,STUDENT_ID,PROGRAM,JOINING_DATE,BRANCH,PHONE,ADDRESS) 
+      ->VALUES("RASHMI BAJAJ","B218011","B.TECH",'2018-07-10',"ELECTRONICS ENGINEERING",996658976,"L/K/5, CHENNAI");
 Query OK, 1 row affected (0.14 sec)
 
-mysql> SELECT * FROM STUDENT_DATA;                                                                                     +-------------------+------------+---------+--------------+------------------------------+------------+--------------------+
+mysql> SELECT * FROM STUDENT_DATA;                                                                                   
++-------------------+------------+---------+--------------+------------------------------+------------+--------------------+
 | NAME              | STUDENT_ID | PROGRAM | JOINING_DATE | BRANCH                       | PHONE      | ADDRESS            |
 +-------------------+------------+---------+--------------+------------------------------+------------+--------------------+
 | SUMAN SAHU        | B118043    | B.TECH  | 2018-04-05   | COMPUTER SCIENCE ENGINEERING | 896653426  | 5/M, LUCKNOW       |
