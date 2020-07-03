@@ -163,6 +163,7 @@ mysql> SHOW COLUMNS FROM ATTENDANCE_RECORDS;
 +------------+-------------+------+-----+---------+------------------------------------------------------------------------------+
 | Field      | Type        | Null | Key | Default | Extra                                                                        |
 +------------+-------------+------+-----+---------+------------------------------------------------------------------------------+
+| REC_NO     | int(11)     | YES  | MUL | NULL    | Used to store the record numbers, made primary and auto-incremented.         |
 | STUDENT_ID | varchar(20) | NO   | PRI | NULL    | Used to contain the student Id. made with unique constraint.                 |
 | COURSE_ID  | varchar(30) | NO   | PRI | NULL    | Used to contain the Course ID, made with unique constraint.                  |
 | DATE       | date        | NO   | PRI | NULL    | Used to contain the Date for the record, made with unique constraint.        |
