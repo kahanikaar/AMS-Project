@@ -60,10 +60,12 @@ mysql> SELECT * FROM TEACHER_DATA;
 +------------+------------+------------+--------------+------------+----------------+
 9 rows in set (0.00 sec)
 
-mysql> INSERT INTO TEACHER_DATA (NAME, TEACHER_ID,DEPARTMENT,JOINING_DATE,PHONE,ADDRESS) VALUES( "RD SHARMA","T91816","CSE","2018-05-20",6965656925,"M/5, PUNE");
+mysql> INSERT INTO TEACHER_DATA (NAME, TEACHER_ID,DEPARTMENT,JOINING_DATE,PHONE,ADDRESS) 
+       -> VALUES( "RD SHARMA","T91816","CSE","2018-05-20",6965656925,"M/5, PUNE");
 Query OK, 1 row affected (0.03 sec)
 
-mysql> SELECT * FROM TEACHER_DATA;                                                                                     +------------+------------+------------+--------------+------------+----------------+
+mysql> SELECT * FROM TEACHER_DATA;                                                                                     
++------------+------------+------------+--------------+------------+----------------+
 | NAME       | TEACHER_ID | DEPARTMENT | JOINING_DATE | PHONE      | ADDRESS        |
 +------------+------------+------------+--------------+------------+----------------+
 | OP TANDON  | T01016     | IT         | 2012-05-21   | 896561225  | H/5, MUMBAI    |
